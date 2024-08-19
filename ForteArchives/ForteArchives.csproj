@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\CSVReports\CSVReports.csproj" />
+    <ProjectReference Include="..\Controls\DataFieldsSelect\DataFieldsSelect.csproj" />
+    <ProjectReference Include="..\Controls\Setup\Setup.csproj" />
+    <ProjectReference Include="..\Controls\UcGraph\UcGraph.csproj" />
+    <ProjectReference Include="..\Services\AppServices\AppServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WpfArchive.Windows.Theme">
+      <HintPath>..\CustomReference\WpfArchive.Windows.Theme.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForteArchives", "ForteArchives\ForteArchives.csproj", "{D3B6F90D-DAAB-4520-A8EC-C5F7576E694D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserControls", "UserControls", "{8D493A0B-A7FE-4C49-AB09-EE3A17ABC055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomReference", "CustomReference", "{20F818DA-ED4E-4313-BAE9-8E21D07DEA87}"
+	ProjectSection(SolutionItems) = preProject
+		CustomReference\System.Windows.Interactivity.dll = CustomReference\System.Windows.Interactivity.dll
+		CustomReference\WpfArchive.Windows.Theme.dll = CustomReference\WpfArchive.Windows.Theme.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServices", "Services\AppServices\AppServices.csproj", "{69E0169B-ADC4-402E-9191-B3F38604C528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataFieldsSelect", "Controls\DataFieldsSelect\DataFieldsSelect.csproj", "{92E5A5B4-2690-4DCF-89FC-F6338C28511E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UcGraph", "Controls\UcGraph\UcGraph.csproj", "{18833E69-068C-44AC-9FDC-37AB80B1E0E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVReports", "Controls\CSVReports\CSVReports.csproj", "{0B6518A9-F3D2-45FA-A238-0D870FF41E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "Controls\Setup\Setup.csproj", "{DE7E9F87-9A68-4F58-B0B8-6924FE42897B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B6F90D-DAAB-4520-A8EC-C5F7576E694D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B6F90D-DAAB-4520-A8EC-C5F7576E694D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B6F90D-DAAB-4520-A8EC-C5F7576E694D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B6F90D-DAAB-4520-A8EC-C5F7576E694D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E0169B-ADC4-402E-9191-B3F38604C528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E0169B-ADC4-402E-9191-B3F38604C528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E0169B-ADC4-402E-9191-B3F38604C528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E0169B-ADC4-402E-9191-B3F38604C528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E5A5B4-2690-4DCF-89FC-F6338C28511E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E5A5B4-2690-4DCF-89FC-F6338C28511E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E5A5B4-2690-4DCF-89FC-F6338C28511E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E5A5B4-2690-4DCF-89FC-F6338C28511E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18833E69-068C-44AC-9FDC-37AB80B1E0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18833E69-068C-44AC-9FDC-37AB80B1E0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18833E69-068C-44AC-9FDC-37AB80B1E0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18833E69-068C-44AC-9FDC-37AB80B1E0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6518A9-F3D2-45FA-A238-0D870FF41E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6518A9-F3D2-45FA-A238-0D870FF41E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6518A9-F3D2-45FA-A238-0D870FF41E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6518A9-F3D2-45FA-A238-0D870FF41E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7E9F87-9A68-4F58-B0B8-6924FE42897B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7E9F87-9A68-4F58-B0B8-6924FE42897B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7E9F87-9A68-4F58-B0B8-6924FE42897B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7E9F87-9A68-4F58-B0B8-6924FE42897B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92E5A5B4-2690-4DCF-89FC-F6338C28511E} = {8D493A0B-A7FE-4C49-AB09-EE3A17ABC055}
+		{18833E69-068C-44AC-9FDC-37AB80B1E0E1} = {8D493A0B-A7FE-4C49-AB09-EE3A17ABC055}
+		{0B6518A9-F3D2-45FA-A238-0D870FF41E25} = {8D493A0B-A7FE-4C49-AB09-EE3A17ABC055}
+		{DE7E9F87-9A68-4F58-B0B8-6924FE42897B} = {8D493A0B-A7FE-4C49-AB09-EE3A17ABC055}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {487BC92B-8374-4603-9395-DE978FBFADC5}
+	EndGlobalSection
+EndGlobal
